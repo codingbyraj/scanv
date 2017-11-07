@@ -7,6 +7,8 @@ $(document).ready(function () {
         }, 1000);
         return false;
     });
+    $("#loader").css("display", "none");
+    $("#website").css("display", "block");
 });
 /*   
 

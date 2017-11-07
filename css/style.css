@@ -39,6 +39,21 @@ body {
     /*    -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 1);*/
 }
 
+#loader {
+    width: 100%;
+    /*    background: rgba(0, 0, 0, 1);*/
+}
+
+#loader img {
+    position: absolute;
+    left: 43%;
+    top: 30%;
+}
+
+#website {
+    display: none;
+}
+
 .contain {
     width: 92% !important;
     margin: auto;
